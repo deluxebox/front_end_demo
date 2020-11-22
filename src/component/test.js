@@ -6,7 +6,7 @@ export default class Test extends React.Component {
     doStuff = () => {
         let a = 10;
         console.log(`This is an info msg.${a}`);
-        message.info('This is an info msg.');
+        message.info('This is an info msg!');
     }
 
     render = () => {
